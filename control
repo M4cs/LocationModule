@@ -1,8 +1,8 @@
-Package: com.ioscreatix.control-center.testmodule
-Name: TestModule
-Version: 1.0.0
+Package: com.ezccmodules.control-center.ezlocationmodule
+Name: EzLocationModule
+Version: 0.0.1
 Architecture: iphoneos-arm
-Description: A Control Center Module
-Author: iOS Creatix
+Description: A toggle to turn Location Services on or off from your control center.
+Author: Chilaxan and M4cs
 Section: Control Center (Modules)
-Maintainer: iOS Creatix
+Maintainer: Chilaxan and M4cs
