@@ -10,7 +10,7 @@
 + (UIImage *)imageNamed:(NSString *)name inBundle:(NSBundle *)bundle;
 @end
 
-@implementation ezlocation 
+@implementation EzLocationModule 
 - (UIImage *)iconGlyph {
 	return [UIImage imageNamed:@"Icon" inBundle:[NSBundle bundleForClass:[self class]]];
 }
@@ -20,13 +20,13 @@
 }
 
 - (BOOL)isSelected {
-	[CLLocationManager setLocationServicesEnabled:NO];
+	[CLLocationManager setLocationServicesEnabled:false];
 	return self.ezlocation;
 }
 
 - (void)setSelected:(BOOL)selected {
 	self.ezlocation = selected;
-	[CLLocationManager setLocationServicesEnabled:YES];
+	[CLLocationManager setLocationServicesEnabled:true];
 	[super refreshState];
 	
 }

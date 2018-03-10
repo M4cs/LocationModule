@@ -1,6 +1,6 @@
 #import <ControlCenterUIKit/CCUIToggleModule.h>
 #import <CoreLocation/CoreLocation.h>
 
-@interface CTXTestModule : CCUIToggleModule
+@interface EzLocationModule : CCUIToggleModule
 @property (nonatomic, assign, readwrite) BOOL ezlocation;
 @end
