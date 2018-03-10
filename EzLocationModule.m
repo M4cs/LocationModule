@@ -20,13 +20,13 @@
 }
 
 - (BOOL)isSelected {
-	[CLLocationManager setLocationServicesEnabled:NO];
+	[CLLocationManager setLocationServicesEnabled:true];
 	return self.ezlocation;
 }
 
 - (void)setSelected:(BOOL)selected {
 	self.ezlocation = selected;
-	[CLLocationManager setLocationServicesEnabled:YES];
+	[CLLocationManager setLocationServicesEnabled:false];
 	[super refreshState];
 	
 }
