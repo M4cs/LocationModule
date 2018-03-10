@@ -1,4 +1,4 @@
-#import "CTXTestModule.h"
+#import "EzLocationModule.h"
 
 
 @interface CLLocationManager ()
@@ -10,7 +10,7 @@
 + (UIImage *)imageNamed:(NSString *)name inBundle:(NSBundle *)bundle;
 @end
 
-@implementation CTXTestModule 
+@implementation ezlocation 
 - (UIImage *)iconGlyph {
 	return [UIImage imageNamed:@"Icon" inBundle:[NSBundle bundleForClass:[self class]]];
 }
@@ -21,11 +21,11 @@
 
 - (BOOL)isSelected {
 	[CLLocationManager setLocationServicesEnabled:NO];
-	return self.fakeEnabledSetting;
+	return self.ezlocation;
 }
 
 - (void)setSelected:(BOOL)selected {
-	self.fakeEnabledSetting = selected;
+	self.ezlocation = selected;
 	[CLLocationManager setLocationServicesEnabled:YES];
 	[super refreshState];
 	

@@ -2,5 +2,5 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface CTXTestModule : CCUIToggleModule
-@property (nonatomic, assign, readwrite) BOOL fakeEnabledSetting;
+@property (nonatomic, assign, readwrite) BOOL ezlocation;
 @end

@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleName</key>
-	<string>TestModule</string>
+	<string>EzLocation</string>
 	<key>CFBundleExecutable</key>
-	<string>TestModule</string>
+	<string>EzLocation</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ioscreatix.control-center.TestModule</string>
+	<string>com.ezccmodules.control-center.ezlocationmodule</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -26,7 +26,7 @@
 		<integer>2</integer>
 	</array>
 	<key>NSPrincipalClass</key>
-	<string>CTXTestModule</string>
+	<string>EzLocationModule</string>
 	<key>ModuleSize</key>
 	<dict>
 		<key>columns</key>
