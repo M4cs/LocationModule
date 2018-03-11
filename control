@@ -6,3 +6,4 @@ Description: A toggle to turn Location Services on or off from your control cent
 Author: Chilaxan and M4cs
 Section: Control Center (Modules)
 Maintainer: Chilaxan and M4cs
+Depends: firmware (>= 11.0), com.ioscreatix.silo
