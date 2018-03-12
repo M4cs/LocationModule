@@ -5,5 +5,5 @@ Architecture: iphoneos-arm
 Description: A toggle to turn Location Services on or off from your control center.
 Author: Chilaxan and M4cs
 Section: Control Center (Modules)
-Maintainer: Chilaxan and M4cs
+Maintainer: Chilaxan and M4cs <macs@m4cs.xyz>
 Depends: firmware (>= 11.0), com.ioscreatix.silo
